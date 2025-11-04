@@ -1,0 +1,9 @@
+@page
+@model MinhasDespesas.Pages.DashboardModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<component type="typeof(Components.RegistroDespesa)" render-mode="ServerPrerendered" />

@@ -1,0 +1,12 @@
+@page
+@model MinhasDespesas.Pages.HistoricoModel
+@{
+    ViewData["Title"] = "Histórico de Despesas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Aqui você pode ver e filtrar todas as suas despesas registradas.</p>
+<hr />
+
+<component type="typeof(Components.HistoricoCompleto)" render-mode="ServerPrerendered" />
